@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Hello World",
+    "version": "1.0",
+    "description": "Hello world extension",
+    "icons": {
+        "16": "hello.png",
+        "48": "hello.png",
+        "128": "hello.png"
+    },
+    "browser_action": {
+        "default_icon": "hello.png",
+        "default_popup": "popup.html"
+    }
+}
